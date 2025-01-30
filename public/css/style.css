@@ -132,7 +132,7 @@ body {
 /* Products Section */
 .products {
     margin-top: 20px;
-    background : #c4bfbf;
+    background : #ffffff;
 }
 
 .products h2 {
@@ -147,7 +147,7 @@ body {
 }
 
 .product-card {
-    background-color: #fff;
+    background-color: #c4bfbf;
     padding: 30px;
     border-radius: 10px;
     text-align: center;

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopcart</title>
+    <title>Shopherbals</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
                 <h1 class="logo">Shopherbal</h1>
                 <nav class="nav">
                     <ul>
-                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Products</a></li>
                         <li><a href="#">Deals</a></li>
                         <li><a href="#">What's New</a></li>
                         <li><a href="#">Delivery</a></li>
