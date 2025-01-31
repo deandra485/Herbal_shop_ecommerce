@@ -7,63 +7,23 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="top-bar">
-                <p>Get 50% Off on Selected Items | Shop Now</p>
-            </div>
-            <div class="main-header">
-                <h1 class="logo">Shopherbal</h1>
-                <nav class="nav">
-                    <ul>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Deals</a></li>
-                        <li><a href="#">What's New</a></li>
-                        <li><a href="#">Delivery</a></li>
-                    </ul>
-                </nav>
-                <div class="search-bar">
-                    <input type="text" placeholder="Search Product">
-                    <button>Search</button>
-                </div>
-                <div class="header-actions">
-                    <a href="#">Account</a>
-                    <a href="#">Cart</a>
-                </div>
-            </div>
-        </div>
-    </header>
-
+   <x-header></x-header>
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-slider">
             <div class="slide">
-                <img src="img/herbal 1.jpg" alt="Herbal 1">
+                <img src="img/herbal 1.png" alt="Herbal 1">
             </div>
             <div class="slide">
-                <img src="img/herbal 2.jpg" alt="Herbal 2">
+                <img src="img/herbal 2.png" alt="Herbal 2">
             </div>
             <div class="slide">
-                <img src="img/herbal 3.jpg" alt="Herbal 3">
+                <img src="img/herbal 3.png" alt="Herbal 3">
             </div>
         </div>
         
     </section>
     
-
-    <!-- Filter Section -->
-    <div class="filter-bar">
-        <div class="container">
-            <button>Goods Type</button>
-            <button>Price</button>
-            <button>Review</button>
-            <button>Color</button>
-            <button>Material</button>
-            <button>Offer</button>
-            <button>All Filters</button>
-        </div>
-    </div>
 
     <!-- Products Section -->
     <section class="products">
@@ -217,11 +177,7 @@
         </div>
     </section>
     <br><br>
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Shopcart. All rights reserved.</p>
-        </div>
-    </footer>
+    <x-footer></x-footer>
     <script src="js/script.js"></script>
 </body>
 </html>
